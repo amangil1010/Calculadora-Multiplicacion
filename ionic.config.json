@@ -1,0 +1,7 @@
+{
+  "name": "Multiplicador",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
