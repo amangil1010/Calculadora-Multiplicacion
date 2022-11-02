@@ -26,23 +26,37 @@
   text-decoration: none;
 }
 
-
-//
-/* Set the background color of body to tan */
 ion-content {
-  background-color: tan;
+  --background: tan;
+  
+  
 }
 
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
   ion-content {
-    background-color: blue;
+    --background: rgb(52, 192, 87);
   }
+
+  .boton2 {
+    display: none;
+  }
+
+  
+
 }
 
-/* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   ion-content {
-    background-color: olive;
+    --background: rgb(226, 226, 56);
+
   }
+
+  .boton1 {
+     display: none;
+   }
+
+}
+
+.class {
+  color:#8c8c8c;
 }
